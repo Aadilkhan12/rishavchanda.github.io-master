@@ -165,29 +165,47 @@ export const skills = [
         image:
           "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
       },
-      {
-        name: "Adobe XD",
-        image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
+      
       {
         name: "Figma",
         image:
           "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
       },
+      {
+        name :"Jira",
+        image:"https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.automation-consultants.com%2Fjira-for-business-process-management%2F&psig=AOvVaw2EWZUieAsHj5fRczC6p07_&ust=1710564350139000&source=images&cd=vfe&opi=89978449&ved=0CBMQjRxqFwoTCJCp3vW69YQDFQAAAAAdAAAAABAE"
+      }
     ],
   },
 ];
 
 export const experiences = [
-
+  {
+    id: 1,
+    img: "src/images/ProbytoAi.png",
+    role: "Frontend Engineer ",
+    company: "Probyto AI",
+    date: "Nov 2023 - Present",
+    desc: "Working on the frontend of the web application using ReactJS, Redux,PostgreSQL,NodeJS and Jira.",
+    skills: [
+      "ReactJS",
+      "Redux",
+      "NodeJs",
+      "Jira",
+      "Express",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
+  },
   {
     id: 0,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
     role: "Frontend Engineer Intern",
     company: "Neurobit",
     date: "feb 2023 - sep 2023",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
+    desc: "Working on the frontend of the web application using ReactJS, Redux, and Tailwind.",
     skills: [
       "ReactJS",
       "Redux",
@@ -200,35 +218,20 @@ export const experiences = [
     //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
   },
   
+  
+ 
+  
   {
     id: 2,
     img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
     role: "Open Source Contributor ",
     company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
+    date: "Sep 2023 - Nov 2023",
     desc: "Contributing to different open-source projects and learn from industry experts",
     //doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
   },
   
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    //doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
-  },
+  
 ];
 
 export const education = [
