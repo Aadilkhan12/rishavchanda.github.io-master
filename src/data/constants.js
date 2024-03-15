@@ -1,3 +1,4 @@
+import Probyto from './images/ProbytoAi.png'
 export const Bio = {
   name: "Aadil",
   roles: [
@@ -182,7 +183,7 @@ export const skills = [
 export const experiences = [
   {
     id: 1,
-    img: "src/images/ProbytoAi.png",
+    img: Probyto,
     role: "Frontend Engineer ",
     company: "Probyto AI",
     date: "Nov 2023 - Present",
